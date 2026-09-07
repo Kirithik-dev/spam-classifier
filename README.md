@@ -33,7 +33,7 @@ python predict.py "Congratulations! You've won a free prize, click here to claim
 
 ## Status
 
-🚧 Work in progress — learning as I build.
+Completed — learning as I build.
 
 ## What's next
 
