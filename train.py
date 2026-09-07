@@ -32,5 +32,5 @@ print(f"Model accuracy: {accuracy*100:.2f}%")
 
 # SAVING MODEL AND VECTORIZER
 with open("model.pkl", "wb") as model_file:
-  pickle.dump(model, model_file)
-print("Model saved to model.pkl")
+    pickle.dump((model, vectorizer), model_file)
+print("Model and vectorizer saved to model.pkl")
